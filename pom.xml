@@ -24,7 +24,7 @@
 
   <groupId>org.openmaptiles</groupId>
   <artifactId>planetiler-openmaptiles</artifactId>
-  <version>3.13.1-ph-test-SNAPSHOT</version>
+  <version>3.14.0-ph-test-SNAPSHOT</version>
 
   <name>OpenMapTiles Vector Tile Schema implementation for Planetiler tool</name>
 
