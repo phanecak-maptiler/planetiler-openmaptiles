@@ -3,6 +3,25 @@
 This OpenMapTiles profile for [Planetiler](https://github.com/onthegomap/planetiler) is based
 on [OpenMapTiles](https://github.com/openmaptiles/openmaptiles).
 
+## Test version - BEWARE OF DRAGONS
+
+This is a test branch intended to test various "work in progress" branches
+together in cases when there are several pull-requests open at once towards
+upstream.
+
+In practise, it is a fork. But a fork which I (Peter Hanecak) do not intend
+to maintain and support (too much), hence:
+
+1. BEWARE OF DRAGONS: may or may not work, may change substantially without
+   notice, it may lag behind or diverge too much from upstream, etc.
+2. if you use it, it is at your own risk
+3. issues can be reported to me (for example via OSM Slack:
+   https://app.slack.com/client/T029HV94T/D046H3CA6L8/rimeto_profile/U045CR8UNTZ ),
+   but as already stated, I do not plan to support it past the stated goal
+   "test few unmerged branches together"
+4. please do NOT report issues with this to upstream, as it would be
+   confusing and waste of their time
+
 ## How to run
 
 Using pre-built docker image:

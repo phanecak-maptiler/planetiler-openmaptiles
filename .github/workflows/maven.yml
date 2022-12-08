@@ -5,7 +5,7 @@ name: CI
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ main, test ]
 
 jobs:
   # When spotless:apply fails, the error message is a bit cryptic, so try to make it obvious that
@@ -116,8 +116,8 @@ jobs:
       - name: Checkout parent Planetiler repo
         uses: actions/checkout@v3
         with:
-          repository: onthegomap/planetiler
-          ref: main
+          repository: phanecak-maptiler/planetiler
+          ref: test
           path: planetiler
       - name: Checkout this PR planetiler-openmaptiles repo
         uses: actions/checkout@v3

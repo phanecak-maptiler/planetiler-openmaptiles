@@ -10,6 +10,8 @@
     <maven.compiler.source>16</maven.compiler.source>
     <maven.compiler.target>16</maven.compiler.target>
     <planetiler.version>0.6-SNAPSHOT</planetiler.version>
+    <!-- TODO later:
+    <planetiler.version>0.6-ph-test-SNAPSHOT</planetiler.version -->
     <junit.version>5.9.1</junit.version>
 
     <mainClass>org.openmaptiles.OpenMapTilesMain</mainClass>
@@ -22,7 +24,7 @@
 
   <groupId>org.openmaptiles</groupId>
   <artifactId>planetiler-openmaptiles</artifactId>
-  <version>3.13.1</version>
+  <version>3.13.1-ph-test-SNAPSHOT</version>
 
   <name>OpenMapTiles Vector Tile Schema implementation for Planetiler tool</name>
 
