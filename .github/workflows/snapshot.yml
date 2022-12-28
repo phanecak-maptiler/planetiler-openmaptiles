@@ -3,7 +3,7 @@ name: Publish a Snapshot
 
 on:
   push:
-    branches: [ main, test ]
+    branches: [ test ]
 
 jobs:
   snapshot:
