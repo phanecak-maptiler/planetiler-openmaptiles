@@ -10,7 +10,7 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
     <planetiler.version>0.9.2-ph-test-SNAPSHOT</planetiler.version>
-    <junit.version>5.13.4</junit.version>
+    <junit.version>6.0.0</junit.version>
 
     <mainClass>org.openmaptiles.OpenMapTilesMain</mainClass>
     <image.version>${project.version}</image.version>
@@ -67,7 +67,7 @@
     <dependency>
       <groupId>org.commonmark</groupId>
       <artifactId>commonmark</artifactId>
-      <version>0.26.0</version>
+      <version>0.27.0</version>
     </dependency>
 
     <!-- To use test utilities: -->
@@ -115,7 +115,7 @@
       <plugin>
         <groupId>com.diffplug.spotless</groupId>
         <artifactId>spotless-maven-plugin</artifactId>
-        <version>2.46.1</version>
+        <version>3.0.0</version>
         <configuration>
           <java>
             <importOrder/>
@@ -149,7 +149,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.6.1</version>
+        <version>3.6.2</version>
         <executions>
           <execution>
             <id>enforce-java</id>
